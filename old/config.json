@@ -1,0 +1,11 @@
+{
+	"memory_path":"/home/kevin/GitRepos/Semantics/RSC/",
+	"source_paths":["/home/kevin/GitRepos/Semantics/DEN", "/home/kevin/GitRepos/Semantics/utilities", "/home/kevin/GitRepos/Semantics/BEAGLE"],
+	"corpus":"TASA2",
+	"word2vec":{"WINDOW_SIZE":31, "VARIANT":"cbow", "N_NEGATIVE":45, "CONTEXT_SMOOTHING":0.4,"N_ITER":40, "MIN_COUNT":0, "N_THREADS":4, "N_RUNS":1, "BINPATH":"/home/kevin/GitRepos/Semantics/word2vec/", "PROP_TRAIN":1.0},
+	"LSA":{"DIM":700},
+	"Topics":{"K":1700},
+	"DEN":{"WINDOW_SIZE":13, "CONTEXT_SMOOTHING":0.5, "E1_INHIBITION":0.9, "N_NEGATIVE":15, "UseRanks":false},
+	"BEAGLE":{"NFEATs":10000, "ORDER_WINDOW":7, "CONTEXT_WINDOW":7, "bind":"permutation"},
+	"RelationMapping":{"UseFullVocab":false}
+}
