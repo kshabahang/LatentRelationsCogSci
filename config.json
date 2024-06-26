@@ -1,0 +1,12 @@
+{
+	"CORPUS_NAME": "TASA2",
+	"DATA_PATH": "/home/kevin/GitRepos/LatentRelationsCogSci/rsc/",
+	"MODELS": {"LSA":{"M_CONTEXT": 13,
+			  "D_DIM": 2,
+			  "ALPHA": 0.5,
+			  "K_NEGATIVE": 15,
+			  "UseWordByDoc": false,
+			  "UseWordByWord": true,
+			  "Overwrite": false}},
+	"RelationMapping":{"UseFullVocab": false}
+}
